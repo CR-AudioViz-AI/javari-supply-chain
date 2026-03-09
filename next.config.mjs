@@ -6,6 +6,7 @@ const _buildConfig = typeof nextConfigFinal !== "undefined" ? nextConfigFinal :
 const _finalExport = {
   ..._buildConfig,
   typescript: { ignoreBuildErrors: true },
+  output: 'standalone',
   eslint:     { ignoreDuringBuilds: true },
 };
 module.exports = _finalExport;
