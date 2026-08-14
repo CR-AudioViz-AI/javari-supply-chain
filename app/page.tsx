@@ -20,7 +20,7 @@ export default function Page() {
             <Truck className="w-8 h-8 text-green-600" />
             <span className="text-xl font-bold">Javari Supply Chain</span>
           </div>
-          <a href="/signup" className="bg-green-600 text-white px-4 py-2 rounded-lg">Get Started</a>
+          <a href="https://craudiovizai.com/signup" className="bg-green-600 text-white px-4 py-2 rounded-lg">Get Started</a>
         </div>
       </nav>
       
@@ -33,7 +33,7 @@ export default function Page() {
           <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
             Streamline operations, reduce costs, and scale your business with intelligent automation.
           </p>
-          <a href="/signup" className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-lg font-semibold">
+          <a href="https://craudiovizai.com/signup" className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-lg font-semibold">
             Start Free Trial <ArrowRight className="w-5 h-5" />
           </a>
         </motion.div>
@@ -56,7 +56,7 @@ export default function Page() {
       <section className="py-20 px-4 bg-green-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Transform Your Business?</h2>
-          <a href="/signup" className="inline-flex items-center gap-2 bg-white text-green-600 px-8 py-4 rounded-lg font-semibold">
+          <a href="https://craudiovizai.com/signup" className="inline-flex items-center gap-2 bg-white text-green-600 px-8 py-4 rounded-lg font-semibold">
             Get Started Free <ArrowRight className="w-5 h-5" />
           </a>
         </div>
