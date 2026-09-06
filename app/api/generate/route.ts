@@ -55,7 +55,7 @@ async function generate(prompt: string): Promise<string> {
     const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${GROQ_API_KEY}` },
-      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', max_tokens: 2048, temperature: 0.7,
+      body: JSON.stringify({ model: 'openai/gpt-oss-120b', max_tokens: 2048, temperature: 0.7,
         messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: prompt }] }),
     })
     if (res.ok) {
